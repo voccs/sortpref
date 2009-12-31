@@ -1,0 +1,26 @@
+<!ENTITY sortpref.options.title "SortPref Options">
+<!ENTITY sortpref.options.tab.label "SortPref Options">
+
+<!ENTITY sortpref.options.sortOrder.label "Primary Order:">
+<!ENTITY sortpref.options.sortOrder.ascending "ascending">
+<!ENTITY sortpref.options.sortOrder.descending "descending">
+
+<!ENTITY sortpref.options.sortType.label "Primary Type:">
+<!ENTITY sortType.byNone "None">
+<!ENTITY sortType.byDate "Date">
+<!ENTITY sortType.bySubject "Subject">
+<!ENTITY sortType.byAuthor "Author">
+<!ENTITY sortType.byId "ID">
+<!ENTITY sortType.byThread "Thread">
+<!ENTITY sortType.byPriority "Priority">
+<!ENTITY sortType.byStatus "Status">
+<!ENTITY sortType.bySize "Size">
+<!ENTITY sortType.byFlagged "Flagged">
+<!ENTITY sortType.byUnread "Unread">
+<!ENTITY sortType.byRecipient "Recipient">
+<!ENTITY sortType.byLocation "Location">
+<!ENTITY sortType.byTags "Tags">
+<!ENTITY sortType.byJunkStatus "Junk Status">
+<!ENTITY sortType.byAttachments "Attachments">
+<!ENTITY sortType.byAccount "Account">
+<!ENTITY sortType.byCustom "Custom Column">

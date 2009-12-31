@@ -1,0 +1,7 @@
+content	sortpref	jar:chrome/sortpref.jar!/content/
+
+overlay	chrome://messenger/content/messenger.xul	chrome://sortpref/content/messenger-overlay.xul
+
+skin	sortpref	classic/1.0	jar:chrome/sortpref.jar!/skin/
+
+locale	sortpref	en-US	jar:chrome/sortpref.jar!/locale/en-US/

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://sortpref/skin/options.css" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://sortpref/locale/options.dtd">
+
+<prefwindow id="sortprefOptionsWindow"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        type="prefwindow"
+        windowtype="sortpref:optionsWindow"
+        title="&sortpref.options.title;"
+        height="160"
+        width="340">
+
+  <prefpane id="sortprefOptionsPane"
+	    label="&sortpref.options.tab.label;">
+
+    <script type="application/x-javascript"
+            src="chrome://global/content/globalOverlay.js"/>
+
+    <preferences>
+      <preference id="sortOrder"
+		  name="mailnews.default_sort_order"
+		  type="int" />
+      <preference id="sortType"
+		  name="mailnews.default_sort_type"
+		  type="int" />
+    </preferences>
+
+    <groupbox>
+      <hbox>
+        <label id="sortOrderLabel" value="&sortpref.options.sortOrder.label;"/>
+        <radiogroup preference="sortOrder"
+          orient="vertical"
+          aria-labelledBy="sortOrderLabel">
+          <radio value="1"
+                 label="&sortpref.options.sortOrder.ascending;"
+                 id="sortOrderAscending" />
+          <radio value="2"
+                 label="&sortpref.options.sortOrder.descending;"
+                 id="sortOrderDescending" />
+        </radiogroup>
+      </hbox>
+
+      <hbox>
+        <label id="sortTypeLabel" value="&sortpref.options.sortType.label;" />
+        <menulist preference="sortType" aria-labelledBy="sortTypeLabel">
+          <menupopup>
+            <menuitem value="17" label="&sortType.byNone;" />
+            <menuitem value="18" label="&sortType.byDate;" />
+            <menuitem value="19" label="&sortType.bySubject;" />
+            <menuitem value="20" label="&sortType.byAuthor;" />
+            <menuitem value="21" label="&sortType.byId;" />
+            <menuitem value="22" label="&sortType.byThread;" />
+            <menuitem value="23" label="&sortType.byPriority;" />
+            <menuitem value="24" label="&sortType.byStatus;" />
+            <menuitem value="25" label="&sortType.bySize;" />
+            <menuitem value="26" label="&sortType.byFlagged;" />
+            <menuitem value="27" label="&sortType.byUnread;" />
+            <menuitem value="28" label="&sortType.byRecipient;" />
+            <menuitem value="29" label="&sortType.byLocation;" />
+            <menuitem value="30" label="&sortType.byTags;" />
+            <menuitem value="31" label="&sortType.byJunkStatus;" />
+            <menuitem value="32" label="&sortType.byAttachments;" />
+            <menuitem value="33" label="&sortType.byAccount;" />
+            <menuitem value="34" label="&sortType.byCustom;" />
+          </menupopup>
+        </menulist>
+      </hbox>
+    </groupbox>
+  </prefpane>
+
+</prefwindow>
