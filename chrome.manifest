@@ -6,3 +6,4 @@ skin	sortpref	classic/1.0	jar:chrome/sortpref.jar!/skin/
 
 locale	sortpref	en-US	jar:chrome/sortpref.jar!/locale/en-US/
 locale	sortpref	es-ES	jar:chrome/sortpref.jar!/locale/es-ES/
+locale	sortpref	pt-BR	jar:chrome/sortpref.jar!/locale/pt-BR/

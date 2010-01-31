@@ -33,6 +33,20 @@
     <em:homepageURL>http://ryanlee.org/software/mozilla/thunderbird/sortpref/</em:homepageURL>
     <em:optionsURL>chrome://sortpref/content/options.xul</em:optionsURL>
     <em:type parseType="Integer">2</em:type> <!-- type=extension -->
+    <em:localized>
+      <Description>
+        <em:locale>es-ES</em:locale>
+        <em:name>SortPref</em:name>
+        <em:description>Añadir la habilidad al control primario, opciones de ordenación predeterminadas.</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>pt-BR</em:locale>
+        <em:name>SortPref</em:name>
+        <em:description>Acrescenta a função de controlar as opções de organização padrão das mensagens.</em:description>
+      </Description>
+    </em:localized>
 
   </Description>
 </RDF>

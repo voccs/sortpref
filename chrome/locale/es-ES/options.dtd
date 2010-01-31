@@ -1,0 +1,24 @@
+<!ENTITY sortpref.options.title "Opciones SortPref">
+<!ENTITY sortpref.options.tab.label "Opciones SortPref">
+<!ENTITY sortpref.options.sortOrder.label "Orden Principal:">
+<!ENTITY sortpref.options.sortOrder.ascending "ascendente">
+<!ENTITY sortpref.options.sortOrder.descending "descendente">
+<!ENTITY sortpref.options.sortType.label "Tipo Principal:">
+<!ENTITY sortType.byNone "Ninguno">
+<!ENTITY sortType.byDate "Fecha">
+<!ENTITY sortType.bySubject "Tema">
+<!ENTITY sortType.byAuthor "Autor">
+<!ENTITY sortType.byId "ID">
+<!ENTITY sortType.byThread "Conversación">
+<!ENTITY sortType.byPriority "Prioridad">
+<!ENTITY sortType.byStatus "Estado">
+<!ENTITY sortType.bySize "Tamaño">
+<!ENTITY sortType.byFlagged "Marcado">
+<!ENTITY sortType.byUnread "No Leido">
+<!ENTITY sortType.byRecipient "Destinatario">
+<!ENTITY sortType.byLocation "Ubicación">
+<!ENTITY sortType.byTags "Etiquetas">
+<!ENTITY sortType.byJunkStatus "Basura">
+<!ENTITY sortType.byAttachments "Adjuntos">
+<!ENTITY sortType.byAccount "Cuenta">
+<!ENTITY sortType.byCustom "Columna personalizada">
