@@ -29,6 +29,10 @@
     <!-- Front End Integration Hooks (used by Extension Manager)-->
     <em:description>Adds the ability to control primary, default sorting options.</em:description>
     <em:creator>Ryan Lee (ryan@ryanlee.org)</em:creator>
+    <em:translator>Edgard Dias Magalhaes</em:translator>
+    <em:translator>RigoNet</em:translator>
+    <em:translator>http://lionel.bijaoui.free.fr/</em:translator>
+    <em:translator>BruceH</em:translator>
     <em:iconURL>chrome://sortpref/skin/icon32x32.png</em:iconURL>
     <em:homepageURL>http://ryanlee.org/software/mozilla/thunderbird/sortpref/</em:homepageURL>
     <em:optionsURL>chrome://sortpref/content/options.xul</em:optionsURL>
@@ -47,6 +51,12 @@
         <em:description>Acrescenta a função de controlar as opções de organização padrão das mensagens.</em:description>
       </Description>
     </em:localized>
-
+    <em:localized>
+      <Description>
+        <em:locale>fr</em:locale>
+        <em:name>SortPref</em:name>
+        <em:description>Ajoute la possibilité de contrôler les options de tri primaire par défaut.</em:description>
+      </Description>
+    </em:localized>
   </Description>
 </RDF>

@@ -1,0 +1,24 @@
+<!ENTITY sortpref.options.title "SortPref 选项">
+<!ENTITY sortpref.options.tab.label "SortPref 选项">
+<!ENTITY sortpref.options.sortOrder.label "主要顺序：">
+<!ENTITY sortpref.options.sortOrder.ascending "升序">
+<!ENTITY sortpref.options.sortOrder.descending "降序">
+<!ENTITY sortpref.options.sortType.label "主要类型：">
+<!ENTITY sortType.byNone "无">
+<!ENTITY sortType.byDate "时间">
+<!ENTITY sortType.bySubject "主题">
+<!ENTITY sortType.byAuthor "作者">
+<!ENTITY sortType.byId "ID">
+<!ENTITY sortType.byThread "线程">
+<!ENTITY sortType.byPriority "优先级">
+<!ENTITY sortType.byStatus "状态">
+<!ENTITY sortType.bySize "大小">
+<!ENTITY sortType.byFlagged "标记">
+<!ENTITY sortType.byUnread "未读">
+<!ENTITY sortType.byRecipient "收件人">
+<!ENTITY sortType.byLocation "位置">
+<!ENTITY sortType.byTags "标签">
+<!ENTITY sortType.byJunkStatus "垃圾状态">
+<!ENTITY sortType.byAttachments "附件">
+<!ENTITY sortType.byAccount "账户">
+<!ENTITY sortType.byCustom "自定义列">
