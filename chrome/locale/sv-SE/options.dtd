@@ -1,0 +1,24 @@
+<!ENTITY sortpref.options.title "Inställningar för SortPref">
+<!ENTITY sortpref.options.tab.label "Inställningar för SortPref">
+<!ENTITY sortpref.options.sortOrder.label "Primärsortering:">
+<!ENTITY sortpref.options.sortOrder.ascending "stigande">
+<!ENTITY sortpref.options.sortOrder.descending "fallande">
+<!ENTITY sortpref.options.sortType.label "Primärtyp:">
+<!ENTITY sortType.byNone "Ingen">
+<!ENTITY sortType.byDate "Datum">
+<!ENTITY sortType.bySubject "Ämne">
+<!ENTITY sortType.byAuthor "Författare">
+<!ENTITY sortType.byId "ID">
+<!ENTITY sortType.byThread "Tråd">
+<!ENTITY sortType.byPriority "Prioritet">
+<!ENTITY sortType.byStatus "Status">
+<!ENTITY sortType.bySize "Storlek">
+<!ENTITY sortType.byFlagged "Flaggade">
+<!ENTITY sortType.byUnread "Olästa">
+<!ENTITY sortType.byRecipient "Mottagare">
+<!ENTITY sortType.byLocation "Plats">
+<!ENTITY sortType.byTags "Taggar">
+<!ENTITY sortType.byJunkStatus "Skräpstatus">
+<!ENTITY sortType.byAttachments "Bilagor">
+<!ENTITY sortType.byAccount "Konto">
+<!ENTITY sortType.byCustom "Anpassad kolumn">

@@ -9,3 +9,4 @@ locale	sortpref	es-ES	jar:chrome/sortpref.jar!/locale/es-ES/
 locale	sortpref	pt-BR	jar:chrome/sortpref.jar!/locale/pt-BR/
 locale	sortpref	fr		jar:chrome/sortpref.jar!/locale/fr/
 locale	sortpref	zh-CN	jar:chrome/sortpref.jar!/locale/zh-CN/
+locale	sortpref	sv-SE	jar:chrome/sortpref.jar!/locale/sv-SE/

@@ -7,6 +7,7 @@
     <em:id>{bfa92939-6ded-4a3f-885f-55dfcce728b8}</em:id>
     <em:name>SortPref</em:name>
     <em:version>0.1</em:version>
+    <em:type>2</em:type> <!-- type=extension -->
     
     <!-- Thunderbird -->
     <em:targetApplication>
@@ -17,15 +18,6 @@
       </Description>
     </em:targetApplication>
     
-    <!-- The contents of the extension //-->
-    <em:file>
-      <Description about="urn:mozilla:extension:file:sortpref.jar">
-        <em:package>content/sortpref/</em:package>
-        <em:locale>locale/en-US/sortpref/</em:locale>
-        <em:skin>skin/classic/sortpref/</em:skin>
-      </Description>
-    </em:file>
-
     <!-- Front End Integration Hooks (used by Extension Manager)-->
     <em:description>Adds the ability to control primary, default sorting options.</em:description>
     <em:creator>Ryan Lee (ryan@ryanlee.org)</em:creator>
@@ -33,10 +25,10 @@
     <em:translator>RigoNet</em:translator>
     <em:translator>http://lionel.bijaoui.free.fr/</em:translator>
     <em:translator>BruceH</em:translator>
+    <em:translator>Mikael Hiort af Ornäs</em:translator>
     <em:iconURL>chrome://sortpref/skin/icon32x32.png</em:iconURL>
     <em:homepageURL>http://ryanlee.org/software/mozilla/thunderbird/sortpref/</em:homepageURL>
     <em:optionsURL>chrome://sortpref/content/options.xul</em:optionsURL>
-    <em:type parseType="Integer">2</em:type> <!-- type=extension -->
     <em:localized>
       <Description>
         <em:locale>es-ES</em:locale>
@@ -56,6 +48,13 @@
         <em:locale>fr</em:locale>
         <em:name>SortPref</em:name>
         <em:description>Ajoute la possibilité de contrôler les options de tri primaire par défaut.</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>sv-SE</em:locale>
+        <em:name>SortPref</em:name>
+        <em:description>Lägger till möjligheten att kontrollera primära standardsorteringsalternativ.</em:description>
       </Description>
     </em:localized>
   </Description>

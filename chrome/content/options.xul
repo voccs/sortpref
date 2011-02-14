@@ -10,7 +10,7 @@
         type="prefwindow"
         windowtype="sortpref:optionsWindow"
         title="&sortpref.options.title;"
-        height="160"
+        height="170"
         width="340">
 
   <prefpane id="sortprefOptionsPane"
