@@ -8,7 +8,7 @@ sortpref.xpi:
 babelzilla:
 	make -f Makefile.chrome -C chrome babelzilla
 	rm -rf sortpref.xpi
-	zip sortpref.xpi chrome/sortpref.jar install.rdf license.txt chrome.manifest defaults/preferences/sortpref.js 
+	zip sortpref.xpi chrome/sortpref.jar install.rdf license.txt chrome.manifest
 
 localize:
 	rm -rf chrome/locale/*
