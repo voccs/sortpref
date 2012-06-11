@@ -1,6 +1,8 @@
 <!ENTITY sortpref.options.title "SortPref Options">
 <!ENTITY sortpref.options.tab.label "SortPref Options">
 
+<!ENTITY sortpref.options.sorting.label "Sorting">
+
 <!ENTITY sortpref.options.sortOrder.label "Primary Order:">
 <!ENTITY sortpref.options.sortOrder.ascending "ascending">
 <!ENTITY sortpref.options.sortOrder.descending "descending">
@@ -24,3 +26,12 @@
 <!ENTITY sortType.byAttachments "Attachments">
 <!ENTITY sortType.byAccount "Account">
 <!ENTITY sortType.byCustom "Custom Column">
+
+<!ENTITY sortpref.options.threads.label "Threads">
+
+<!ENTITY sortpref.options.viewFlags.label "View messages as:">
+<!ENTITY sortpref.options.viewFlags.default "Normal (flat list)">
+<!ENTITY sortpref.options.viewFlags.thread "Threaded">
+<!ENTITY sortpref.options.viewFlags.group "Grouped by sort">
+<!ENTITY sortpref.options.viewFlags.unread "Show only unread messages">
+<!ENTITY sortpref.options.viewFlags.expand "Expand all threads">
