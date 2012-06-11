@@ -19,7 +19,7 @@
     </em:targetApplication>
     
     <!-- Front End Integration Hooks (used by Extension Manager)-->
-    <em:description>Adds the ability to control primary, default sorting options.</em:description>
+    <em:description>Adds the ability to control primary, default sorting and threading options.</em:description>
     <em:creator>Ryan Lee (ryan@ryanlee.org)</em:creator>
     <em:translator>Edgard Dias Magalhaes</em:translator>
     <em:translator>RigoNet</em:translator>
