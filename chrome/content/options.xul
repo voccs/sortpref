@@ -10,14 +10,16 @@
         type="prefwindow"
         windowtype="sortpref:optionsWindow"
         title="&sortpref.options.title;"
-        height="170"
-        width="340">
+        height="340"
+        width="380">
 
   <prefpane id="sortprefOptionsPane"
 	    label="&sortpref.options.tab.label;">
 
     <script type="application/x-javascript"
             src="chrome://global/content/globalOverlay.js"/>
+    <script type="application/x-javascript"
+            src="chrome://sortpref/content/scripts/options.js"/>
 
     <preferences>
       <preference id="sortOrder"
@@ -26,9 +28,13 @@
       <preference id="sortType"
 		  name="mailnews.default_sort_type"
 		  type="int" />
+      <preference id="viewFlags"
+          name="mailnews.default_view_flags"
+          type="int" />
     </preferences>
 
     <groupbox>
+      <caption label="&sortpref.options.sorting.label;" />
       <hbox>
         <label id="sortOrderLabel" value="&sortpref.options.sortOrder.label;"/>
         <radiogroup preference="sortOrder"
@@ -43,7 +49,7 @@
         </radiogroup>
       </hbox>
 
-      <hbox>
+      <hbox align="center">
         <label id="sortTypeLabel" value="&sortpref.options.sortType.label;" />
         <menulist preference="sortType" aria-labelledBy="sortTypeLabel">
           <menupopup>
@@ -67,6 +73,48 @@
             <menuitem value="34" label="&sortType.byCustom;" />
           </menupopup>
         </menulist>
+      </hbox>
+    </groupbox>
+
+    <groupbox>
+      <caption label="&sortpref.options.threads.label;" />
+      <hbox>
+        <label id="viewFlagsLabel" value="&sortpref.options.viewFlags.label;"/>
+        <vbox>
+          <radiogroup preference="viewFlags"
+                      id="viewFlagsGroup"
+                      orient="vertical"
+                      aria-labelledBy="viewFlagsLabel"
+                      onsynctopreference="return SortPrefOptions.viewFlagsThreadTo();"
+                      onsyncfrompreference="return SortPrefOptions.viewFlagsThreadFrom();">
+            <radio value="0"
+                   label="&sortpref.options.viewFlags.default;"
+                   id="viewFlagsDefalut" />
+            <radio value="64"
+                   label="&sortpref.options.viewFlags.group;"
+                   id="viewFlagsGroup" />
+            <vbox>
+              <radio value="1"
+                     label="&sortpref.options.viewFlags.thread;"
+                     id="viewFlagsThread" />
+              <hbox align="center">
+                <checkbox preference="viewFlags"
+                          id="viewFlagsExpand"
+                          class="indent"
+                          onsynctopreference="return SortPrefOptions.viewFlagsExpandTo();"
+                          onsyncfrompreference="return SortPrefOptions.viewFlagsExpandFrom();" />
+                <label id="vliewFlagsExpandLabel" value="&sortpref.options.viewFlags.expand;"/>
+              </hbox>
+            </vbox>
+          </radiogroup>
+        </vbox>
+      </hbox>
+      <hbox align="center">
+        <checkbox preference="viewFlags"
+                  id="viewFlagsUnread"
+                  onsynctopreference="return SortPrefOptions.viewFlagsUnreadTo();"
+                  onsyncfrompreference="return SortPrefOptions.viewFlagsUnreadFrom();" />
+        <label id="vliewFlagsUnreadLabel" value="&sortpref.options.viewFlags.unread;"/>
       </hbox>
     </groupbox>
   </prefpane>
