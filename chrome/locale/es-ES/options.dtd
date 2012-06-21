@@ -1,5 +1,6 @@
 <!ENTITY sortpref.options.title "Opciones SortPref">
 <!ENTITY sortpref.options.tab.label "Opciones SortPref">
+<!ENTITY sortpref.options.sorting.label "Ordenación">
 <!ENTITY sortpref.options.sortOrder.label "Orden Principal:">
 <!ENTITY sortpref.options.sortOrder.ascending "ascendente">
 <!ENTITY sortpref.options.sortOrder.descending "descendente">
@@ -22,3 +23,10 @@
 <!ENTITY sortType.byAttachments "Adjuntos">
 <!ENTITY sortType.byAccount "Cuenta">
 <!ENTITY sortType.byCustom "Columna personalizada">
+<!ENTITY sortpref.options.threads.label "Hilos">
+<!ENTITY sortpref.options.viewFlags.label "Ver mensajes como:">
+<!ENTITY sortpref.options.viewFlags.default "Normal (flat list)">
+<!ENTITY sortpref.options.viewFlags.thread "Threaded">
+<!ENTITY sortpref.options.viewFlags.group "Grouped by sort">
+<!ENTITY sortpref.options.viewFlags.unread "Show only unread messages">
+<!ENTITY sortpref.options.viewFlags.expand "Expandir todos los hilos">

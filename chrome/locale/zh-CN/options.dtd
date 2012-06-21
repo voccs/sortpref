@@ -1,15 +1,16 @@
 <!ENTITY sortpref.options.title "SortPref 选项">
 <!ENTITY sortpref.options.tab.label "SortPref 选项">
-<!ENTITY sortpref.options.sortOrder.label "主要顺序：">
+<!ENTITY sortpref.options.sorting.label "排序">
+<!ENTITY sortpref.options.sortOrder.label "主顺序：">
 <!ENTITY sortpref.options.sortOrder.ascending "升序">
 <!ENTITY sortpref.options.sortOrder.descending "降序">
-<!ENTITY sortpref.options.sortType.label "主要类型：">
+<!ENTITY sortpref.options.sortType.label "主类型：">
 <!ENTITY sortType.byNone "无">
 <!ENTITY sortType.byDate "时间">
 <!ENTITY sortType.bySubject "主题">
 <!ENTITY sortType.byAuthor "作者">
 <!ENTITY sortType.byId "ID">
-<!ENTITY sortType.byThread "线程">
+<!ENTITY sortType.byThread "话题">
 <!ENTITY sortType.byPriority "优先级">
 <!ENTITY sortType.byStatus "状态">
 <!ENTITY sortType.bySize "大小">
@@ -22,3 +23,10 @@
 <!ENTITY sortType.byAttachments "附件">
 <!ENTITY sortType.byAccount "账户">
 <!ENTITY sortType.byCustom "自定义列">
+<!ENTITY sortpref.options.threads.label "话题">
+<!ENTITY sortpref.options.viewFlags.label "消息查看方式：">
+<!ENTITY sortpref.options.viewFlags.default "标准（展开列表）">
+<!ENTITY sortpref.options.viewFlags.thread "话题">
+<!ENTITY sortpref.options.viewFlags.group "按排序分组">
+<!ENTITY sortpref.options.viewFlags.unread "仅显示未读消息">
+<!ENTITY sortpref.options.viewFlags.expand "展开所有话题">

@@ -1,5 +1,6 @@
 <!ENTITY sortpref.options.title "Inställningar för SortPref">
 <!ENTITY sortpref.options.tab.label "Inställningar för SortPref">
+<!ENTITY sortpref.options.sorting.label "Sorting">
 <!ENTITY sortpref.options.sortOrder.label "Primärsortering:">
 <!ENTITY sortpref.options.sortOrder.ascending "stigande">
 <!ENTITY sortpref.options.sortOrder.descending "fallande">
@@ -22,3 +23,10 @@
 <!ENTITY sortType.byAttachments "Bilagor">
 <!ENTITY sortType.byAccount "Konto">
 <!ENTITY sortType.byCustom "Anpassad kolumn">
+<!ENTITY sortpref.options.threads.label "Threads">
+<!ENTITY sortpref.options.viewFlags.label "View messages as:">
+<!ENTITY sortpref.options.viewFlags.default "Normal (flat list)">
+<!ENTITY sortpref.options.viewFlags.thread "Threaded">
+<!ENTITY sortpref.options.viewFlags.group "Grouped by sort">
+<!ENTITY sortpref.options.viewFlags.unread "Show only unread messages">
+<!ENTITY sortpref.options.viewFlags.expand "Expand all threads">

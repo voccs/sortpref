@@ -1,0 +1,32 @@
+<!ENTITY sortpref.options.title "SortPref - Einstellungen">
+<!ENTITY sortpref.options.tab.label "SortPref - Einstellungen">
+<!ENTITY sortpref.options.sorting.label "Sortieren">
+<!ENTITY sortpref.options.sortOrder.label "Primäre Reihenfolge:">
+<!ENTITY sortpref.options.sortOrder.ascending "Aufsteigend">
+<!ENTITY sortpref.options.sortOrder.descending "Absteigend">
+<!ENTITY sortpref.options.sortType.label "Primärtyp:">
+<!ENTITY sortType.byNone "Keiner">
+<!ENTITY sortType.byDate "Datum">
+<!ENTITY sortType.bySubject "Betreff">
+<!ENTITY sortType.byAuthor "Von">
+<!ENTITY sortType.byId "ID">
+<!ENTITY sortType.byThread "Thema">
+<!ENTITY sortType.byPriority "Priorität">
+<!ENTITY sortType.byStatus "Gelesen / Ungelesen">
+<!ENTITY sortType.bySize "Größe">
+<!ENTITY sortType.byFlagged "Kennzeichnung">
+<!ENTITY sortType.byUnread "Ungelesen">
+<!ENTITY sortType.byRecipient "Empfänger">
+<!ENTITY sortType.byLocation "Ablageort">
+<!ENTITY sortType.byTags "Schlagwörter">
+<!ENTITY sortType.byJunkStatus "Junk-Status">
+<!ENTITY sortType.byAttachments "Anhänge">
+<!ENTITY sortType.byAccount "Konto">
+<!ENTITY sortType.byCustom "Benutzerdefinierte Spalte">
+<!ENTITY sortpref.options.threads.label "Themen">
+<!ENTITY sortpref.options.viewFlags.label "Nachrichten anzeigen als:">
+<!ENTITY sortpref.options.viewFlags.default "Normal (einfache Liste)">
+<!ENTITY sortpref.options.viewFlags.thread "Gruppiert nach Thema">
+<!ENTITY sortpref.options.viewFlags.group "Gruppiert nach Sortierung">
+<!ENTITY sortpref.options.viewFlags.unread "Nur ungelesene Nachrichten/Beiträge">
+<!ENTITY sortpref.options.viewFlags.expand "Alle Themenbäume aufklappen">
