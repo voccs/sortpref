@@ -1,6 +1,6 @@
 <!ENTITY sortpref.options.title "Opções do SortPref">
 <!ENTITY sortpref.options.tab.label "Opções do SortPref">
-<!ENTITY sortpref.options.sorting.label "Sorting">
+<!ENTITY sortpref.options.sorting.label "Organização">
 <!ENTITY sortpref.options.sortOrder.label "Ordem Primária:">
 <!ENTITY sortpref.options.sortOrder.ascending "ascendente">
 <!ENTITY sortpref.options.sortOrder.descending "descendente">
@@ -10,7 +10,7 @@
 <!ENTITY sortType.bySubject "Sujeito">
 <!ENTITY sortType.byAuthor "Autor">
 <!ENTITY sortType.byId "ID">
-<!ENTITY sortType.byThread "Linha (Thread)">
+<!ENTITY sortType.byThread "Encadeamento de mensagens (Thread)">
 <!ENTITY sortType.byPriority "Prioridade">
 <!ENTITY sortType.byStatus "Status">
 <!ENTITY sortType.bySize "Tamanho">
@@ -23,10 +23,10 @@
 <!ENTITY sortType.byAttachments "Anexos">
 <!ENTITY sortType.byAccount "Conta">
 <!ENTITY sortType.byCustom "Coluna Personalizada">
-<!ENTITY sortpref.options.threads.label "Threads">
-<!ENTITY sortpref.options.viewFlags.label "View messages as:">
-<!ENTITY sortpref.options.viewFlags.default "Normal (flat list)">
-<!ENTITY sortpref.options.viewFlags.thread "Threaded">
-<!ENTITY sortpref.options.viewFlags.group "Grouped by sort">
-<!ENTITY sortpref.options.viewFlags.unread "Show only unread messages">
-<!ENTITY sortpref.options.viewFlags.expand "Expand all threads">
+<!ENTITY sortpref.options.threads.label "Encadeamentos">
+<!ENTITY sortpref.options.viewFlags.label "Exibir mensagens como:">
+<!ENTITY sortpref.options.viewFlags.default "Normal (em lista)">
+<!ENTITY sortpref.options.viewFlags.thread "Mensagens encadeadas">
+<!ENTITY sortpref.options.viewFlags.group "Agrupadas">
+<!ENTITY sortpref.options.viewFlags.unread "Exibir apenas mensagens não lidas">
+<!ENTITY sortpref.options.viewFlags.expand "Expandir todos os encadeamentos de mensagens">
