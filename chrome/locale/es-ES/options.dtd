@@ -25,8 +25,8 @@
 <!ENTITY sortType.byCustom "Columna personalizada">
 <!ENTITY sortpref.options.threads.label "Hilos">
 <!ENTITY sortpref.options.viewFlags.label "Ver mensajes como:">
-<!ENTITY sortpref.options.viewFlags.default "Normal (flat list)">
-<!ENTITY sortpref.options.viewFlags.thread "Threaded">
-<!ENTITY sortpref.options.viewFlags.group "Grouped by sort">
-<!ENTITY sortpref.options.viewFlags.unread "Show only unread messages">
+<!ENTITY sortpref.options.viewFlags.default "Normal (lista plana)">
+<!ENTITY sortpref.options.viewFlags.thread "En hilo">
+<!ENTITY sortpref.options.viewFlags.group "Agrupados por tipo">
+<!ENTITY sortpref.options.viewFlags.unread "Mostrar sólo mensajes sin leer">
 <!ENTITY sortpref.options.viewFlags.expand "Expandir todos los hilos">
