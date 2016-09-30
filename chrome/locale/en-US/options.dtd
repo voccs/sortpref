@@ -26,6 +26,7 @@
 <!ENTITY sortType.byAttachments "Attachments">
 <!ENTITY sortType.byAccount "Account">
 <!ENTITY sortType.byCustom "Custom Column">
+<!ENTITY sortType.byReceived "Received">
 
 <!ENTITY sortpref.options.threads.label "Threads">
 

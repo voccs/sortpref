@@ -71,6 +71,7 @@
             <menuitem value="32" label="&sortType.byAttachments;" />
             <menuitem value="33" label="&sortType.byAccount;" />
             <menuitem value="34" label="&sortType.byCustom;" />
+            <menuitem value="35" label="&sortType.byReceived;" />
           </menupopup>
         </menulist>
       </hbox>
