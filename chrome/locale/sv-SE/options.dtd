@@ -23,6 +23,9 @@
 <!ENTITY sortType.byAttachments "Bilagor">
 <!ENTITY sortType.byAccount "Konto">
 <!ENTITY sortType.byCustom "Anpassad kolumn">
+<!ENTITY sortType.byReceived "Received">
+<!ENTITY sortType.byCorrespondent "Correspondent">
+
 <!ENTITY sortpref.options.threads.label "Threads">
 <!ENTITY sortpref.options.viewFlags.label "View messages as:">
 <!ENTITY sortpref.options.viewFlags.default "Normal (flat list)">

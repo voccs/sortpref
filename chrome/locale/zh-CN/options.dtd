@@ -23,6 +23,8 @@
 <!ENTITY sortType.byAttachments "附件">
 <!ENTITY sortType.byAccount "账户">
 <!ENTITY sortType.byCustom "自定义列">
+<!ENTITY sortType.byReceived "Received">
+<!ENTITY sortType.byCorrespondent "Correspondent">
 <!ENTITY sortpref.options.threads.label "话题">
 <!ENTITY sortpref.options.viewFlags.label "消息查看方式：">
 <!ENTITY sortpref.options.viewFlags.default "标准（展开列表）">

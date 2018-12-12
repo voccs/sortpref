@@ -23,6 +23,8 @@
 <!ENTITY sortType.byAttachments "Pièces jointes">
 <!ENTITY sortType.byAccount "Compte">
 <!ENTITY sortType.byCustom "Colonne personnalisée">
+<!ENTITY sortType.byReceived "Received">
+<!ENTITY sortType.byCorrespondent "Correspondent">
 <!ENTITY sortpref.options.threads.label "Threads">
 <!ENTITY sortpref.options.viewFlags.label "View messages as:">
 <!ENTITY sortpref.options.viewFlags.default "Normal (flat list)">

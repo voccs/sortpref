@@ -23,6 +23,8 @@
 <!ENTITY sortType.byAttachments "Adjuntos">
 <!ENTITY sortType.byAccount "Cuenta">
 <!ENTITY sortType.byCustom "Columna personalizada">
+<!ENTITY sortType.byReceived "Received">
+<!ENTITY sortType.byCorrespondent "Correspondent">
 <!ENTITY sortpref.options.threads.label "Hilos">
 <!ENTITY sortpref.options.viewFlags.label "Ver mensajes como:">
 <!ENTITY sortpref.options.viewFlags.default "Normal (lista plana)">

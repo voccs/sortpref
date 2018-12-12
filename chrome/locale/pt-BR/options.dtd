@@ -23,6 +23,8 @@
 <!ENTITY sortType.byAttachments "Anexos">
 <!ENTITY sortType.byAccount "Conta">
 <!ENTITY sortType.byCustom "Coluna Personalizada">
+<!ENTITY sortType.byReceived "Received">
+<!ENTITY sortType.byCorrespondent "Correspondent">
 <!ENTITY sortpref.options.threads.label "Encadeamentos">
 <!ENTITY sortpref.options.viewFlags.label "Exibir mensagens como:">
 <!ENTITY sortpref.options.viewFlags.default "Normal (em lista)">
