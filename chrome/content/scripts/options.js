@@ -1,4 +1,4 @@
-var nsMsgViewFlagsType = Components.interfaces.nsMsgViewFlagsType;
+var nsMsgViewFlagsType = Ci.nsMsgViewFlagsType;
 
 /** @namespace */
 var SortPrefOptions = {
